@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Notes Go Here",
+        "text": "This one is super cool"
+    },
+    {
+        "title": "These are my notes",
+        "text": "Beep beep boop",
+        "noteID": "130b"
+    },
+    {
+        "title": "Hello",
+        "text": "My name is Thomas",
+        "noteID": "dc64"
+    }
+]
