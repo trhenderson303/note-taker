@@ -1,16 +1,7 @@
 [
     {
-        "title": "Notes Go Here",
-        "text": "This one is super cool"
-    },
-    {
-        "title": "Hello",
-        "text": "This is testing",
-        "id": "cfc4"
-    },
-    {
-        "title": "I'm happy that this is works",
-        "text": "Woohoo",
+        "title": "Click Me!",
+        "text": "Saved notes appear here. When a saved note is clicked, it will render in the main section.",
         "id": "4f5e"
     }
 ]
