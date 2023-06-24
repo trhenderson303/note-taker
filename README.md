@@ -1,7 +1,7 @@
 # Note Taker App
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-##Link: https://note-taker-th303-6bd4ca78bae6.herokuapp.com/
+## Link: https://note-taker-th303-6bd4ca78bae6.herokuapp.com/
 
 ## Description
 This note taker application is a great place to keep notes on anything from professional meetings to random thoughts. The clean interface allows for users to easily save and access their notes with just one click. 
