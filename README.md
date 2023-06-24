@@ -1,7 +1,7 @@
 # Note Taker App
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Link: 
+## Link 
 https://note-taker-th303-6bd4ca78bae6.herokuapp.com/
 
 ## Description
