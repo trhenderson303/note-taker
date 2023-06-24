@@ -4,13 +4,13 @@
         "text": "This one is super cool"
     },
     {
-        "title": "These are my notes",
-        "text": "Beep beep boop",
-        "noteID": "130b"
+        "title": "Hello",
+        "text": "This is testing",
+        "id": "cfc4"
     },
     {
-        "title": "Hello",
-        "text": "My name is Thomas",
-        "noteID": "dc64"
+        "title": "I'm happy that this is works",
+        "text": "Woohoo",
+        "id": "4f5e"
     }
 ]

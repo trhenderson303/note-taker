@@ -17,7 +17,7 @@ notes.post('/', (req, res) => {
         const newNote = {
             title,
             text,
-            noteID: uuid(),
+            id: uuid(),
         };
         readAndAppend(newNote, './db/db.json');
         res.json(`Note saved successfully`);
@@ -26,30 +26,29 @@ notes.post('/', (req, res) => {
     }
 });
 
-notes.get('/:noteID', (req, res) => {
-    const id = req.params.noteID;
+notes.get('/:id', (req, res) => {
+    const noteID = req.params.id;
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
         .then((json) => {
-            const result = json.filter((note) => note.noteID === id);
+            const result = json.filter((note) => note.id === noteID);
             return result.length > 0
                 ? res.json(result)
                 : res.json('Note not found');
         });
 });
 
-/*
-notes.delete('/:noteID', (req, res) => {
-    const id = req.params.noteID;
+notes.delete('/:id', (req, res) => {
+    const noteID = req.params.id;
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
         .then((json) => {
-            const result = json.filter((note) => note.noteID != id);
+            const result = json.filter((note) => note.id != noteID);
             writeToFile('./db/db.json', result);
             res.json(`Note has been deleted`);
         });
 });
-*/
+
 
 
 module.exports = notes;
